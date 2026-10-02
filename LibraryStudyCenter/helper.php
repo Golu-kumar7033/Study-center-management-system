@@ -23,8 +23,8 @@ function sendmail($toemail, $toname, $subject, $emailtemplate, $data = []) {
         $mail->Host       = 'smtp-relay.brevo.com';
         $mail->SMTPAuth   = true;
 
-        $mail->Username   = 'a729ff001@smtp-brevo.com';                     //SMTP username
-        $mail->Password   = 'xsmtpsib-349fdfaa5ceb24cc2a0d013b6e008fde5cfbc54bcbb6c1461b3c4fb952d1ca63-FGy9Qhw3CKEa0t4r';                               //SMTP password
+        $mail->Username   = 'your user name ';                     //SMTP username
+        $mail->Password   = 'password';                               //SMTP password
  
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
