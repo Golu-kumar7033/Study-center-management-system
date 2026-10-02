@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>OTP Verification - Libro Study Center</title>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f4f4f4; font-family:Arial, sans-serif;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f4; padding:20px 0;">
+    <tr>
+      <td align="center">
+
+        <!-- Main Container -->
+        <table width="600" cellpadding="0" cellspacing="0" style="background:#ffffff; border-radius:8px; overflow:hidden;">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:#2563eb; padding:20px; text-align:center; color:#ffffff;">
+              <h1 style="margin:0; font-size:22px;">Libro Study Center</h1>
+              <p style="margin:5px 0 0; font-size:14px;">OTP Verification Code</p>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:30px; color:#333333;">
+
+              <p style="font-size:16px;">Hello {{User Name}},</p>
+
+              <p style="font-size:15px; line-height:1.6;">
+                Use the following One-Time Password (OTP) to complete your verification. This code is valid for a limited time.
+              </p>
+
+              <!-- OTP Box -->
+              <div style="text-align:center; margin:30px 0;">
+                <div style="display:inline-block; background:#f1f5f9; padding:15px 30px; font-size:26px; letter-spacing:5px; font-weight:bold; border-radius:6px; color:#111827;">
+                  {{OTP_CODE}}
+                </div>
+              </div>
+
+              <p style="font-size:14px; color:#555; text-align:center;">
+                This OTP is valid for <strong>{{Expiry Time}}</strong>.
+              </p>
+
+              <p style="font-size:14px; color:#777; text-align:center;">
+                Do not share this OTP with anyone for security reasons.
+              </p>
+
+              <p style="margin-top:30px; font-size:15px;">
+                Regards,<br>
+                <strong>Libro Study Center Team</strong>
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background:#f0f0f0; text-align:center; padding:15px; font-size:12px; color:#777;">
+              © {{Year}} Libro Study Center. All rights reserved.
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

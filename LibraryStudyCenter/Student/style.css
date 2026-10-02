@@ -1,0 +1,212 @@
+
+
+
+ .option li{
+    background: linear-gradient(135deg, #c0ece3, #fbfbff);
+    border-radius: 5px;
+}
+.offcanvas{
+    background: linear-gradient(135deg, #e1e6e5, #fbfbff);
+
+}
+.header{
+    background-color: #ff7a00;
+    color:white;
+    padding:50px 0;
+}
+.arrow-icon {
+    transition: transform 0.3s ease;
+}
+
+/* Rotate when expanded */
+a[aria-expanded="true"] .arrow-icon {
+    transform: rotate(180deg);
+}
+/*profile*/
+  .profile-card {
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+
+        .profile-header {
+            background: linear-gradient(135deg, #c7cce2, #764ba2);
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .profile-header img {
+            border-radius: 20%;
+            border: 5px solid white;
+            transition: 0.3s;
+        }
+
+        .profile-header img:hover {
+            transform: scale(1.05);
+        }
+
+        .section-title {
+            border-left: 5px solid #667eea;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            padding: 10px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .info-box:hover {
+            background: #f1f1f1;
+            transform: scale(1.02);
+        }
+
+        .btn-custom {
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background: #764ba2;
+            color: white;
+        }
+
+    
+
+        .btn-custom {
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background: #764ba2;
+            color: white;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .stats div {
+            transition: 0.3s;
+        }
+
+        .stats div:hover {
+            transform: scale(1.1);
+            color: #000000;
+        }
+
+        
+/* Main Card */
+.feedback-card {
+    width: 900px;
+    margin-top:20px;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* Header */
+.feedback-header {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    padding: 18px;
+}
+
+/* Option box */
+.option-box {
+    border: 1px solid #e6e6e6;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.option-box:hover {
+    background: #f1f4ff;
+    border-color: #8f94fb;
+    transform: translateY(-2px);
+}
+
+.form-check-input:checked + label {
+    font-weight: 600;
+    color: #4e54c8;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+textarea {
+    border-radius: 12px !important;
+}
+ 
+        #seats {
+            display: none;
+        }    
+        .slot {
+            margin: 10px;
+            padding: 15px;
+            display: inline-block;
+            border: 1px solid #333;
+            border-radius:10px;
+            cursor: pointer;
+        
+        
+        }
+
+
+        #slot:hover {
+            background-color: #8acdff;
+            color: white;
+        }
+
+        #slot:active {
+            background-color: #0f8ef7;
+            color: white;
+        }
+        .seat {
+            width: 100px;
+            height: 50px;
+            margin:5px;    
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    .card { cursor: pointer; }
+    .card.disabled {
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+/*plan card*/
+
+.plan-card{
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #33416b, #5c74bb);
+    color: #fff;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.plan-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    border-color: #ffc107;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Cancellation - Libro Study Center</title>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f4f4f4; font-family:Arial, sans-serif;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f4; padding:20px 0;">
+    <tr>
+      <td align="center">
+
+        <table width="600" cellpadding="0" cellspacing="0" style="background:#ffffff; border-radius:8px; overflow:hidden;">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:#dc2626; padding:20px; text-align:center; color:#ffffff;">
+              <h1 style="margin:0; font-size:22px;">Libro Study Center</h1>
+              <p style="margin:5px 0 0; font-size:14px;">Booking Cancelled</p>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:30px; color:#333333;">
+
+              <p style="font-size:16px;">Dear {{User Name}},</p>
+
+              <p style="font-size:15px; line-height:1.6;">
+                Your booking has been successfully cancelled.
+              </p>
+
+              <!-- Booking Details -->
+              <table width="100%" cellpadding="10" cellspacing="0" style="background:#f9fafb; border-radius:6px; margin:20px 0;">
+                <tr>
+                  <td style="font-size:14px; line-height:1.8;">
+                    <p><strong>Booking Date:</strong> {{Booking Date}}</p>
+                    <p><strong>Time Slot:</strong> {{Start Time}} - {{End Time}}</p>
+                    <p><strong>Seat No:</strong> {{Seat}}</p>
+                    <p><strong>Plan:</strong> {{Plan Name}}</p>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="font-size:15px; line-height:1.6;">
+                We hope to see you again soon. You can make a new booking anytime according to seat availability.
+              </p>
+
+              <p style="font-size:14px; color:#555; line-height:1.6;">
+                If you have any questions, contact us at
+                <a href="mailto:Librostudy.support@gmail.com" style="color:#dc2626; text-decoration:none;">
+                  Librostudy.support@gmail.com
+                </a>.
+              </p>
+
+              <p style="margin-top:30px; font-size:15px;">
+                Regards,<br>
+                <strong>Libro Study Center Team</strong>
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background:#f0f0f0; text-align:center; padding:15px; font-size:12px; color:#777;">
+              © {{Year}} Libro Study Center. All rights reserved.
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

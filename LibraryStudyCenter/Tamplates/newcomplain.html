@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>New Complaint Alert - Admin</title>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f4f4f4; font-family:Arial, sans-serif;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f4; padding:20px 0;">
+    <tr>
+      <td align="center">
+
+        <table width="600" cellpadding="0" cellspacing="0" style="background:#ffffff; border-radius:8px; overflow:hidden;">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:#dc2626; padding:20px; text-align:center; color:#ffffff;">
+              <h1 style="margin:0; font-size:22px;">Libro Study Center</h1>
+              <p style="margin:5px 0 0; font-size:14px;">New Complaint Alert</p>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:30px; color:#333333;">
+
+              <p style="font-size:16px;">Hello Admin,</p>
+
+              <p style="font-size:15px; line-height:1.6;">
+                A new complaint has been registered by a user. Please review it and take necessary action.
+              </p>
+
+              <table width="100%" style="background:#f9fafb; padding:15px; border-radius:6px; margin:20px 0;">
+                <tr>
+                  <td style="font-size:14px; line-height:1.8;">
+                    <p><strong>Complaint ID:</strong> {{Complaint ID}}</p>
+                    <p><strong>User Name:</strong> {{User Name}}</p>
+                    <p><strong>Category:</strong> {{Complaint Category}}</p>
+                    <p><strong>Subject:</strong> {{Complaint Subject}}</p>
+                    <p><strong>Date:</strong> {{Date}}</p>
+                  </td>
+                </tr>
+              </table>
+
+              
+
+              <p style="margin-top:20px; font-size:15px;">
+                Regards,<br>
+                <strong>Libro Study Center System</strong>
+              </p>
+
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

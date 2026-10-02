@@ -1,0 +1,159 @@
+   <!DOCTYPE html>
+   <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Libro | Studyspace</title>
+    <link rel="icon" type="image/png" href="../../imges/logo.png">    
+    
+   <!-- Bootstrap 5.3.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        
+    </style>
+    </head>
+    <body>
+
+    <section class="container-fluid ">
+        <nav class="navbar bg-body-tertiary p-3 fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                 <!--side dashbaord manu-->   
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" id="offcanvasWithBothOptions">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">STUDENT DASHBOARD</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="logo">
+                            <img src="../../imges/logo.png" class="rounded  mt-1" width="80px" alt="logo/png"> <span class="fs-4"> <b>Library study center</b></span>
+                            <hr>
+                        </div>
+                        <div class="option fs-5 mt-2">
+                            <ul class="list-group list-group-flush">
+
+                                <li class="list-group-item">
+                                    <a href="Dashboard.php" class="taboption nav-link" data-id="home">
+                                        <i class="fa-regular fa-house"></i> Home
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="Myprofile.php" class="taboption nav-link">
+                                        <i class="fa-solid fa-user me-2"></i>My profile
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="Seat_slot_bookin.php" class="taboption nav-link" data-id="seats">
+                                        <i class="fa-solid fa-chair"></i> Book Seat
+                                    </a>
+                                </li>                              
+
+                                <!-- Collapse Menu -->
+                                <li class="list-group-item">
+                                    <a class="taboption nav-link d-block" data-bs-toggle="collapse" href="#submenu1" role="button">
+                                        <i class="fa-regular fa-pen-to-square"></i>
+                                        Complaints 
+                                        <span class="float-end">
+                                            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                                        </span>
+                                    </a>
+
+                                    <div class="collapse mt-2" id="submenu1">
+                                        <ul class="list-unstyled small">
+                                            <li><a href="complaintRegistration.php" class="nav-link mb-2 ms-3"> 📝 New Complaint</a></li>
+                                            <li><a href="my-complaint.php" class="nav-link mb-2  ms-3"> 🗒️ My Complaint</a></li>
+                
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                                <li class="list-group-item">
+                                    <a href="feedback.php" class="taboption nav-link">
+                                        <i class="bi bi-chat-left-text"></i> Feedback
+                                    </a>
+                                </li>
+
+            
+                                <li class="list-group-item">
+                                    <a href="Changepassword.php" class="taboption nav-link">
+                                        <i class="fa-solid fa-key"></i> Change Password
+                                    </a>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <a href="../logout.php" class="taboption nav-link">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="d-none d-md-flex justify-content-end align-items-center flex-wrap gap-2">
+
+                <a class="btn btn-warning" href="dashboard.php">Home</a>
+
+                <a class="btn btn-outline-info" href="feedback.php">Feedback</a>
+
+                <div class="dropdown">
+                    <a class="btn btn-success dropdown-toggle" href="complaintRegistration.php" role="button"   data-bs-toggle="dropdown" aria-expanded="false">
+                      File Complaint  
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="accountDropdown">
+                        <li>
+                            <a class="dropdown-item mb-3" href="complaintRegistration.php">
+                             📝 New Complaint
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item mb-3" href="my-complaint.php" >
+                                🗒️ My Complaints
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+                <!--Account-->
+                <div class="account dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../../imges/he.png" width="40" class="rounded-circle" alt="profile">
+                        <strong class="ms-2">Account</strong>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                        <li>
+                            <a class="dropdown-item mb-3" href="Myprofile.php">
+                                <i class="fa-solid fa-user me-2"></i> My Account
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item mb-3" href="Changepassword.php">
+                                <i class="fa-solid fa-key me-2"></i> Change Password
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="../logout.php">
+                                <i class="fa-solid fa-right-from-bracket me-2"></i> Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                              
+            </div>
+        </nav>
+        <!--admin-->
+    </section>
+
+<section class="container main-content">        
