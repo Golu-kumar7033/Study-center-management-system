@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Libro | Studyspace</title>
-    <link rel="icon" type="image/png" href="../../imges/logo.png">    
+       <link rel="icon" type="image/png" href="../../imges/logo.png">    
     
    <!-- Bootstrap 5.3.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">    <!-- Font Awesome -->
@@ -27,7 +27,7 @@
                  <!--side dashbaord manu-->   
                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" id="offcanvasWithBothOptions">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">STUDENT DASHBOARD</h5>
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">STUDENT DASHBORD</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -39,7 +39,7 @@
                             <ul class="list-group list-group-flush">
 
                                 <li class="list-group-item">
-                                    <a href="Dashboard.php" class="taboption nav-link" data-id="home">
+                                    <a href="index.php" class="taboption nav-link" data-id="home">
                                         <i class="fa-regular fa-house"></i> Home
                                     </a>
                                 </li>
@@ -99,7 +99,7 @@
 
                <div class="d-none d-md-flex justify-content-end align-items-center flex-wrap gap-2">
 
-                <a class="btn btn-warning" href="dashboard.php">Home</a>
+                <a class="btn btn-warning" href="index.php">Home</a>
 
                 <a class="btn btn-outline-info" href="feedback.php">Feedback</a>
 

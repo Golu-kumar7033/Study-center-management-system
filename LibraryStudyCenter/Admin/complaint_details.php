@@ -1,8 +1,8 @@
 <?php
 session_start(); 
 require_once "../database.php";
-require_once "navbar.html";
-require "../helper.php";
+require_once "includes/navbar.html";
+require "../includes/helper.php";
 
 
 $sid = (int)$_GET['id'];
@@ -186,4 +186,4 @@ if (isset($_POST['submit'])) {
 </div>
 </div>
 
-<?php require_once "footer.php"; ?>
+<?php require_once "includes/footer.php"; ?>

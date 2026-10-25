@@ -1,7 +1,7 @@
 <?php 
 require "../Checklogin.php";
 ?> 
-<?php include("navbar.html"); ?>
+<?php include("../includes/navbar.php"); ?>
 
 
 
@@ -134,4 +134,4 @@ require "../Checklogin.php";
 
     </div>
 </div>
-<?=require_once "footer.html"?>
+<?=require_once "../includes/footer.html"?>

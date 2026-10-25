@@ -5,7 +5,7 @@ require "../database.php";
 $slotdata = mysqli_query($conn, "SELECT * FROM time_slot ORDER BY id");
 ?>
 
-<?php include_once("navbar.html");?>
+<?php include_once("../includes/navbar.php");?>
 
 <div class="slots" >
     <h2 class="text-center mb-4" style="margin-top:100px;">Select ⌛ Time Slot</h2>
@@ -25,4 +25,4 @@ $slotdata = mysqli_query($conn, "SELECT * FROM time_slot ORDER BY id");
     </div>
 </div>
 
-<?php require_once "footer.html"; ?>
+<?php require_once "../includes/footer.html"; ?>

@@ -1,7 +1,8 @@
  <?php
     require "login/chacklogin.php";
  ?>
-     <?php include_once ("navbar.html"); ?>
+     <?php require_once "includes/navbar.html";
+?>
 
         <main class=" mt-3 g-3" >
             <div class="row mt-3">
@@ -108,4 +109,5 @@
             
         </main>
 
-<?=require "footer.php"?>
+<?=require_once "includes/footer.html";
+?>

@@ -40,7 +40,7 @@ $hasBooking = mysqli_num_rows($userBookingQuery) > 0;
 
 ?>
 
-<?php require "navbar.html"; ?>
+<?php require "../includes/navbar.php"; ?>
 
 <h3 class="text-center mb-4 " style="margin-top:100px">
     Seats for Slot: <?= strtoupper($slot['slot_name']); ?>
@@ -185,4 +185,4 @@ $(document).ready(function () {
 });
 </script>
 
-<?php require_once "footer.html"; ?>
+<?php require_once "../includes/footer.html"; ?>

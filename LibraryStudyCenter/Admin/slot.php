@@ -9,7 +9,7 @@ if(isset($_GET['ms']) && $_GET['ms']!=''){
        
   
 
-<?php include("navbar.html"); ?>
+<?php include("includes/navbar.html"); ?>
     <div class="d-flex align-items-center justify-content-center mb-4" style="margin-top:100px">
         <h1 class="me-3">⌛ Time Slot</h1>
         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -79,4 +79,4 @@ if(isset($_GET['ms']) && $_GET['ms']!=''){
     </div>
 
 
-<?php require_once "footer.php"?>
+<?php require_once "includes/footer.php"?>

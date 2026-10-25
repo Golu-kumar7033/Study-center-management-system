@@ -1,7 +1,7 @@
 <?php
 require "../database.php";
 require_once  "../Checklogin.php";
-require_once "navbar.html";
+require_once "includes/navbar.html";
 
 //feedback
 
@@ -154,4 +154,5 @@ $result=mysqli_stmt_get_result($feedback);
     </div>
 </div>
 
-<?php require_once "footer.php"; ?>
+<?php require_once "includes/footer.php";
+ ?>

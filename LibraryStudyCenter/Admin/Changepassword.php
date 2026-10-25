@@ -18,7 +18,8 @@ if(isset($_GET['ms']) && $_GET['ms'] != ''){
 }
 ?> 
 
-    <?php include("navbar.html"); ?>
+    <?php require_once "includes/navbar.html";
+ ?>
 
 
         <main class=" mt-5 d-flex justify-content-center">
@@ -59,5 +60,5 @@ if(isset($_GET['ms']) && $_GET['ms'] != ''){
                 </div>
             </div>
         </main>
-        <?= require_once "footer.php"
-?>   
+<?php require_once "includes/footer.php"; ?>
+ 

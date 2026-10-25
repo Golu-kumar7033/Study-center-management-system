@@ -2,7 +2,7 @@
 require "../database.php";
 require "login/chacklogin.php";
 require "../helper.php";
-require_once "navbar.html";
+require_once "includes/navbar.html";
 ?>
 
 <div class="card rounded " style="margin-top:150px;">
@@ -89,4 +89,4 @@ while ($row = mysqli_fetch_assoc($result)) {
 </nav>
 </div>
 <?php
-require "footer.php"?>
+require "includes/footer.php"?>

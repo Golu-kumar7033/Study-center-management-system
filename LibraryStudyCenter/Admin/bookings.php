@@ -1,4 +1,5 @@
-<?php include 'navbar.html';
+<?php
+require_once "includes/navbar.html";
 require "../database.php" ?>
 
 
@@ -155,4 +156,5 @@ $sno = $offset;
     <?php } ?>
 
 </div>
-<?php include 'footer.php'; ?>
+<?php require_once "includes/footer.php";
+ ?>

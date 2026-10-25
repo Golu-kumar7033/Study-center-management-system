@@ -1,5 +1,5 @@
 <?php
-     require "login/chacklogin.php";  
+require "login/chacklogin.php";  
 
 require "../database.php";
 require "../helper.php";

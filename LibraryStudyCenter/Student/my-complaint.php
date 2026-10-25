@@ -1,7 +1,7 @@
 <?php
 require "../database.php";
 include('../Checklogin.php');
-require_once "navbar.html";
+require_once "../includes/navbar.php";
 require "../helper.php";
 
 $user = $_SESSION['user_id'];
@@ -150,4 +150,4 @@ $result = mysqli_stmt_get_result($stmt);
     </div>
 </div>
 
-<?php require_once "footer.html"; ?>
+<?php require_once "../includes/footer.html"; ?>

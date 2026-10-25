@@ -1,11 +1,11 @@
 <?php 
 require "../Checklogin.php";
     
-     include("navbar.html"); 
+     include("../includes/navbar.php"); 
 ?> 
 
     <div class="d-flex justify-content-center" style="margin-top:50px;">
-        <div class="card   mt-5 shadow-lg border-0 rounded-4" style="width: 800px;"> 
+        <div class="card   mt-5 shadow-lg border-0 rounded-4" style="width: 600px;"> 
             
             <div class="card-header  bg-primary text-white text-center py-4 rounded-top-4 p-3">
                 <h2>📝 Complaint Registration</h2>
@@ -61,4 +61,4 @@ require "../Checklogin.php";
 
         </div>
     </div>
-<?=require_once "footer.html";?>
+<?=require_once "../includes/footer.html";?>

@@ -3,7 +3,7 @@
      require "../database.php";
  ?>
 
-<?php include("navbar.html"); ?>
+<?php include("includes/navbar.html"); ?>
 <?php
 $sid=(int)$_GET['id'];
 $stmt=mysqli_prepare($conn,"SELECT* FROM student_info WHERE student_id =?");
@@ -107,7 +107,7 @@ $ext = strtolower(pathinfo($id, PATHINFO_EXTENSION));
 
 </main>
 
-<?php include("footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 <style>
 

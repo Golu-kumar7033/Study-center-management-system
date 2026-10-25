@@ -1,7 +1,7 @@
 <?php
 session_start();
 require "../database.php";
-require "../helper.php";
+require "../includes/helper.php";
 
 if (!isset($_SESSION['user'])) {
     header("Location: login.php");

@@ -4,7 +4,7 @@ require "../database.php";
 ?> 
 
 
-<?php include("navbar.html"); ?>
+<?php include("../includes/navbar.php"); ?>
 
     <div class="d-flex justify-content-center " style="margin-top:100px">
         <div class="card profile-card shadow" style="width: 850px;">
@@ -127,4 +127,4 @@ require "../database.php";
         </div>
     </div>
 
-<?php require_once "footer.html";?>
+<?php require_once "../includes/footer.html";?>

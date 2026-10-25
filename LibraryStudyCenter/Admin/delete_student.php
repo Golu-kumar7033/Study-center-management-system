@@ -1,7 +1,7 @@
 <?php
 require "../database.php";
 require "login/chacklogin.php";
-require "../helper.php";
+require "../includes/helper.php";
 
 function deleteStudent($conn, $student_id)
 {

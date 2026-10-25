@@ -42,8 +42,7 @@
 
 
  ?>
-<?=require_once "navbar.html";?>
- 
+<?php require_once "includes/navbar.html"; ?> 
         <div class="justify-content-center d-flex align-items-center ">  
             <div class="card  p-4 mt-3 w-50">
                 <h2>Create Notifications</h2>
@@ -62,4 +61,4 @@
                 </form>
             </div>
         </div> 
-   <?=require_once "footer.php"?>
+<?php require_once "includes/footer.php"; ?>

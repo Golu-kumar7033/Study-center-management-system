@@ -11,7 +11,7 @@
 
 
 <?php 
-    include("navbar.html"); 
+    include("includes/navbar.html"); 
 
 ?>
    <div class="container-fluid " style="margin-top:80px">
@@ -466,4 +466,4 @@
 
         </div> 
 
-    <?=require_once "footer.php"?>
+    <?=require_once "includes/footer.php"?>

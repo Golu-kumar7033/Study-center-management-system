@@ -23,7 +23,7 @@ while ($row = mysqli_fetch_assoc($booked)) {
 }
 ?>
 
-<?= require "navbar.html"; ?>
+<?= require "includes/navbar.html"; ?>
 
 <h3 class="text-center mb-4">
     Seats for Slot: <?= htmlspecialchars($slot['slot_name'] ?? ''); ?>
@@ -168,4 +168,4 @@ echo "</table>";
     <a href="slot.php" class="btn btn-primary mb-3">Back</a>
 </p>
 
-<?= require_once "footer.php" ?>
+<?= require_once "includes/footer.php" ?>

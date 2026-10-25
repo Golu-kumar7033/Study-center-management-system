@@ -1,6 +1,6 @@
 
-     <nav>
-        <?php require "Navigation.php";?>
+    <nav>
+        <?php require "includes/Navigation.php";?>
     </nav>
     <!--content-->
     <section class="  p-4" style="margin-top:80px">
@@ -292,7 +292,7 @@
     </section >  
        <!--footer nav-->
     <footer>
-        <?php require "Footer.php";?>
+        <?php require "includes/Footer.php";?>
     </footer>
 
     

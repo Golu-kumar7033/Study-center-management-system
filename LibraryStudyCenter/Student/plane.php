@@ -5,12 +5,11 @@ require "../database.php";
 $slot_id = (int)$_GET['slot_id'] ;
 $seat_id = (int)$_GET['seat_id'] ;
 
-var_dump($slot_id,$seat_id);
 
 $plans = mysqli_query($conn, "SELECT * FROM plans");
 ?>
 
-<?php require "navbar.html"; ?>
+<?php require "../includes/navbar.php"; ?>
 
 <div class="container ">
     <h2 class="text-center  mb-4" style="margin-top:70px">Choose Plan</h2>
@@ -51,4 +50,4 @@ $plans = mysqli_query($conn, "SELECT * FROM plans");
     </div>
 </div>
 
-<?php require_once "footer.html"; ?>
+<?php require_once "../includes/footer.html"; ?>

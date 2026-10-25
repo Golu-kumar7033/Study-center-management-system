@@ -113,6 +113,8 @@ function getstudent($email){
         $student = mysqli_fetch_assoc($results);
         $_SESSION['student_id']=$student['student_id'];
         $_SESSION['student_name'] = $student['student_name'];
+        $_SESSION['student_name'] = $student['student_image'];
+
         $_SESSION['admin_email']="admin1.library@gmail.com";
         return $student;
 
@@ -120,6 +122,7 @@ function getstudent($email){
     return null;
 
 
-}     
+}  
+
 
 ?>

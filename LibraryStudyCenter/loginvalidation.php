@@ -29,9 +29,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['user_type'] = $user['user_type'];
 
         if ($user['user_type'] == 1) {
-            header("Location: admin/Dashboard.php");
+            header("Location: admin/index.php");
         } elseif ($user['user_type'] == 2) {
-            header("Location: student/Dashboard.php");
+            header("Location: student/index.php");
              user_activity($_SESSION['student_id'],date("Y-m-d h:i A"),null, $_SERVER['HTTP_USER_AGENT'],"login");
 
         } else {

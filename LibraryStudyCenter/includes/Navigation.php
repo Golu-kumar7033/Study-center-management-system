@@ -14,11 +14,11 @@
 
      
 </head>
-    <body class="bg-light">
+    <body class="">
         <section id="navar">
-            <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #e3f2fd;" data-bs-theme="light">
+            <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #bacfdd;" data-bs-theme="light">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="home.php" >
+                <a class="navbar-brand" href="index.php" >
                     <img class="rounded-circle " src="../imges/logo.png" alt="logo" style="width:120px;">
                 </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                    <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll fs-5" style="--bs-scroll-height: 100px;">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="home.php">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Abouts.php">About Us</a>

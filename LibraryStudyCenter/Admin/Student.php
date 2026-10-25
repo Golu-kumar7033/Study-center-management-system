@@ -3,7 +3,7 @@
      require "../database.php";
  ?>
 
-    <?php include("navbar.html"); ?>
+    <?php include("includes/navbar.html"); ?>
 
      
 
@@ -217,4 +217,4 @@
             
         </main>
 
-    <?=require_once "footer.php"?>
+    <?=require_once "includes/footer.php"?>

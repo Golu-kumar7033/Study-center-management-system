@@ -4,7 +4,7 @@
  ?>
 
 
-    <?php include("navbar.html"); ?>
+    <?php include("includes/navbar.html"); ?>
 
         <main class="comtainer mt-3 g-3" >
             <div class="row">
@@ -183,4 +183,4 @@
             ?>
             
         </section>
-<?php require_once "footer.php"?>
+<?php require_once "includes/footer.php"?>

@@ -1,5 +1,5 @@
 <?php
-require "navbar.html";
+require "includes/navbar.html";
 require "../database.php";
 ?>
 <div class="update" style="margin-top: 100px">
@@ -11,5 +11,5 @@ require "../database.php";
 </div>
 
 <?php
-require "footer.php";
+require "includes/footer.php";
 ?>

@@ -1,7 +1,7 @@
 <?php
 require "../database.php";
 require_once  "../Checklogin.php";
-require_once "navbar.html";
+require_once "includes/navbar.html";
 
 //feedback
 $sid=(int)$_GET['sid'];
@@ -85,4 +85,4 @@ $or=$row['rating'];
     </div>
 </div>
 
-<?php require_once "footer.php"; ?>
+<?php require_once "includes/footer.php"; ?>

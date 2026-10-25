@@ -1,7 +1,7 @@
 <?php
 session_start(); 
 require_once "../database.php";
-require_once "navbar.html";
+require_once "includes/navbar.html";
 
 $aid = (int) $_GET['student_id'];
 ?>
@@ -81,4 +81,4 @@ if (!empty($row['logout_time'])) {
     </div>
 </div>
 
-<?php require_once "footer.php"; ?>
+<?php require_once "includes/footer.php"; ?>
